@@ -329,29 +329,6 @@ queuectl list --state failed
 - No worker pools (manual start/stop)
 - Basic error messages (no detailed logs)
 
-## Project Structure
-
-
-queuectl/
-├── queuectl/
-│   ├── __init__.py       # Package initialization
-│   ├── cli.py            # CLI interface (Click)
-│   ├── models.py         # Job data models
-│   ├── database.py       # SQLite operations
-│   ├── queue.py          # Queue management
-│   ├── worker.py         # Worker implementation
-│   ├── config.py         # Configuration
-│   └── utils.py          # Utilities (backoff, exec)
-├── tests/
-│   ├── test_basic.py     # Unit tests
-│   └── test_scenarios.py # Integration tests
-├── requirements.txt      # Dependencies
-├── setup.py              # Package setup
-├── README.md             # This file
-├── demo_test.sh          # Demo script
-└── .gitignore            # Git ignore rules
-
-
 ##  Configuration
 ### Files
 
@@ -409,7 +386,7 @@ which queuectl
 
 ### Setup Development Environment
 # Clone repo
-git clone https://github.com/yourusername/queuectl.git
+git clone https://github.com/Lasyapriya-B14/queuectl.git
 cd queuectl
 
 # Create virtual environment
